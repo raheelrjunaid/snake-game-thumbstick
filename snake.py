@@ -1,6 +1,7 @@
 from Phidget22.Phidget import *
 from Phidget22.Devices.VoltageRatioInput import *
 import random
+import pgzrun
 
 vAxis = VoltageRatioInput()
 hAxis = VoltageRatioInput()
@@ -151,3 +152,5 @@ def draw():
         draw_cell(segment['x'], segment['y'], color=(165, 255, 81))
 
     draw_cell(food_position['x'], food_position['y'], (255, 76, 76))
+
+pgzrun.go()
