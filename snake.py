@@ -27,6 +27,9 @@ direction_queue = ['right']
 grid_x_count = 20
 grid_y_count = 15
 
+WIDTH = 300
+HEIGHT = 225
+
 def move_food():
     global food_position
 
